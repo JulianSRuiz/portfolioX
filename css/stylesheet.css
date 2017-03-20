@@ -1,0 +1,166 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Libre Baskerville', serif;
+  box-sizing: border-box;
+  background-color: #EFEEED;
+}
+
+h2 {
+  letter-spacing: .04em;
+}
+
+h3 {
+  padding-bottom: 6px;
+  color: white;
+  letter-spacing: .3em;
+}
+
+h4 {
+  letter-spacing: .2em;
+}
+
+h5 {
+  letter-spacing: .1em;
+}
+
+a {
+  color: #E3685B;
+}
+
+a:hover {
+  color: #253C43;
+  text-decoration: none;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+span {
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: .2em;
+}
+
+.header {
+  margin-top: 50px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  padding-top: 15px;
+  background-color: #46464F;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  letter-spacing: .15em;
+  font-size: 10px;
+}
+
+.nameplate {
+  text-align: center;
+  font-size: 3.0em;
+  font-weight: 600;
+}
+
+.nameplate a {
+  color: #253C43;
+  text-decoration: none;
+}
+
+.subtitle {
+  text-align: center;
+}
+
+.headerlinks {
+  display: inline-flex;
+  padding: 0;
+}
+
+.headerlinks li {
+  list-style: none;
+  padding: 15px 5px;
+  letter-spacing: .3em;
+  font-size: 10px;
+}
+
+.headerlinks li a {
+  text-decoration: none;
+}
+
+.container {
+  background-color: #E7DDC7;
+}
+
+.about {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.2em;
+  line-height: 1.7em;
+}
+
+.aboutparagraph {
+  padding-left: 15px;
+  padding-bottom: 100px;
+  letter-spacing: .1em;
+  font-size: 12px;
+}
+
+.portfolio {
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+
+.proj {
+  padding-bottom: 40px;
+  padding-top: 20px;
+  border-bottom: 4px solid #EFEEED;
+}
+
+.projdescription {
+  padding: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+  line-height: 1.8em;
+  text-transform: none;
+  letter-spacing: .04em;
+}
+
+.vid {
+  padding-top: 30px;
+}
+
+.date {
+  font-family: 'Raleway', sans-serif;
+}
+
+.accomplishments li {
+  list-style: circle;
+  padding-bottom: 5px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+  line-height: 1.8em;
+  text-transform: none;
+  letter-spacing: .04em;
+}
+
+.printout {
+  letter-spacing: .3em;
+  font-size: 12px;
+  padding: 60px 0 100px;
+}
+
+.contactsheet {
+  padding-top: 25px;
+  padding-bottom: 100px;
+}
+
+.contactleft li, .contactright li {
+  letter-spacing: .2em;
+  font-size: 12px;
+}
